@@ -1,5 +1,8 @@
 // class
-// No need to define methods on prototype of class explicitly - Methods are defined on the 'prototype' of each class instance and are shared by all instances
+
+// No need to define methods on prototype of class explicitly - Methods are defined on the 'prototype' of each class 
+// instance and are shared by all instances
+
 // can not be hoisted
 
 // const BankAccount=class{ --> unnamed class

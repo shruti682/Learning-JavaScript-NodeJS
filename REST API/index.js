@@ -34,7 +34,7 @@ app
     });
   });
 
-// Browser can not do post request so we used Postman for that case.
+// Browser can not do post requests so we used Postman for that case.
 
 app.get("/api/users/:id", (req, res) => {
   const id = Number(req.params.id);

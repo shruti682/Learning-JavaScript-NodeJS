@@ -1,0 +1,6 @@
+Steps
+1. npm init
+2. npm install express
+    (check dependencies after installation)
+3. add script- "start": "node index.js"
+4. npm start

@@ -6,7 +6,8 @@ const fs = require("fs");
 const app = express();
 const PORT = 8000;
 
-//express middleware
+// express middleware
+// converts form to object and puts it into req.body
 app.use(express.urlencoded({ extended: false }));
 
 // routes
